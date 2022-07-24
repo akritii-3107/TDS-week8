@@ -6,7 +6,7 @@ st.title('Find Odd-Even ')
 x = st.number_input('Enter a number')
 if (x).is_integer():
     if x%2==0:
-      st.write("the number is even")
+      st.header("the number is even")
     elif x%2!=0:
-      st.write("the number is odd")
-else:st.write("please enter an integer")
+      st.header("the number is odd")
+else:st.subheader("please enter an integer")
